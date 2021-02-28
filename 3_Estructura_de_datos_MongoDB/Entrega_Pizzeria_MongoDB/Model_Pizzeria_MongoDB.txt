@@ -1,0 +1,59 @@
+{	
+	"province" : {
+					"name" : String,
+					"locality" : {
+									"name" : String
+								}
+				},
+	"customer" : {
+					"name" : String,
+					"surname1" : String,
+					"surname2" : String,
+					"adress" : String,
+					"postal_code" : Int,
+					"phone" : Int
+                },
+	"orders" : {	"date_hour" : date,
+					"type_order" : String,
+					"quantity_pizza" : Int,
+					"quantity_burger" : Int,
+					"quantity_drink" : Int,
+					"total_price" : Double,
+				},		
+    "delivery" :  {
+					"date_hour" : Date
+				},						
+    "employee" : {
+					"name" : String,
+					"surname1" : String,
+					"surname2" : String,
+					"nif" : String,
+					"phone" : Int,
+					"type_employee" : String
+				},					
+	"shop" : {
+				"adress" : date,
+				"postal_code", Int
+			 },
+	"product" : [
+					{
+	                "name" : String,
+					"description" : String,
+					"image" : String,
+					"price" : Double,
+					"category" : {
+									"name" : String,
+								}
+				},
+				{
+	                "name" : String,
+					"description" : String,
+					"image" : String,
+					"price" : Double,
+					"category" : {
+									"name" : String,
+								}
+				}
+				]
+			
+}	
